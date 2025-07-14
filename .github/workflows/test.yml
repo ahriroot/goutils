@@ -1,9 +1,6 @@
 name: Go CI
 
-on:
-  push:
-    tags:
-      - 'v*'
+on: [push, pull_request]
 
 jobs:
   test:
