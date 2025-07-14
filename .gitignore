@@ -1,0 +1,80 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.cover
+coverage.out
+coverage-integration.out
+
+# Dependency directories
+vendor/
+bin/
+dist/
+
+# Go workspace file
+go.work
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+
+# Debug files
+debug
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build output
+/tmp/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of go mod vendor
+/vendor/
+
+# GoLand IDE
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Editor directories and files
+*.swp
+*~
+.~lock.*
+
+# Local development files
+local.*
+
+# Log files
+*.log
+
+# Binaries built for release
+/release/
+
+# Profiling output
+*.prof
+*.memprof
+*.cpuprof
+
+coverage.*
